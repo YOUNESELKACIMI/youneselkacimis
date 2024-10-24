@@ -54,7 +54,7 @@ Additionally, the **Licensing Server** must include the enclave's TLS certificat
 
 ### **1.4 High-Level Solution Architecture**
 
-![sequence.png](../Designing a Secure Licensing Server for User Authentication and Enclave Provisioning in Kubernetes/sequence.png)
+![sequence.png](Designing a Secure Licensing Server for User Authentication and Enclave Provisioning in Kubernetes/sequence.png)
 
 ### **Step 1: Client Authentication**
 
@@ -84,7 +84,7 @@ Additionally, the **Licensing Server** must include the enclave's TLS certificat
 
 ### **1.5 Kubernetes Deployment and Infrastructure**
 
-![Architecture.png](../Designing a Secure Licensing Server for User Authentication and Enclave Provisioning in Kubernetes/Architecture.png)
+![Architecture.png](Designing a Secure Licensing Server for User Authentication and Enclave Provisioning in Kubernetes/Architecture.png)
 
 ### **Licensing Server**:
 
@@ -128,7 +128,7 @@ Additionally, the **Licensing Server** must include the enclave's TLS certificat
 
 ### **2.1 Implementation in kubernetes**
 
-![Ressources Architecture.png](../Designing a Secure Licensing Server for User Authentication and Enclave Provisioning in Kubernetes/Ressources_Architecture.png)
+![Ressources Architecture.png](Designing a Secure Licensing Server for User Authentication and Enclave Provisioning in Kubernetes/Ressources_Architecture.png)
 
 the Licensing Server is split into two containers, each handling distinct operations within the same pod. This setup facilitates separation of concerns, improves security, and scales appropriately in a Kubernetes environment. Each part of the system is containerized and integrated into the Kubernetes architecture, using **gRPC** and **RESTful APIs** for communication.
 
@@ -266,28 +266,28 @@ kubectl apply -f '.\Cert-Manager\manifests\'
 kubectl apply -f '.\Licensing Server\manifests\.'
 ```
 
-![image.png](../Designing a Secure Licensing Server for User Authentication and Enclave Provisioning in Kubernetes/image.png)
+![image.png](Designing a Secure Licensing Server for User Authentication and Enclave Provisioning in Kubernetes/image.png)
 
 ## Using postman
 
 ### Signup
 
-![image.png](../Designing a Secure Licensing Server for User Authentication and Enclave Provisioning in Kubernetes/image%201.png)
+![image.png](Designing a Secure Licensing Server for User Authentication and Enclave Provisioning in Kubernetes/image%201.png)
 
-![image.png](../Designing a Secure Licensing Server for User Authentication and Enclave Provisioning in Kubernetes/image%202.png)
+![image.png](Designing a Secure Licensing Server for User Authentication and Enclave Provisioning in Kubernetes/image%202.png)
 
 ### login
 
-![image.png](../Designing a Secure Licensing Server for User Authentication and Enclave Provisioning in Kubernetes/image%203.png)
+![image.png](Designing a Secure Licensing Server for User Authentication and Enclave Provisioning in Kubernetes/image%203.png)
 
-![image.png](../Designing a Secure Licensing Server for User Authentication and Enclave Provisioning in Kubernetes/076169b0-bfec-47aa-8f9b-bac7572f9f23.png)
+![image.png](Designing a Secure Licensing Server for User Authentication and Enclave Provisioning in Kubernetes/076169b0-bfec-47aa-8f9b-bac7572f9f23.png)
 
 ### enclave
 
-![image.png](../Designing a Secure Licensing Server for User Authentication and Enclave Provisioning in Kubernetes/image%204.png)
+![image.png](Designing a Secure Licensing Server for User Authentication and Enclave Provisioning in Kubernetes/image%204.png)
 
-![image.png](../Designing a Secure Licensing Server for User Authentication and Enclave Provisioning in Kubernetes/image%205.png)
+![image.png](Designing a Secure Licensing Server for User Authentication and Enclave Provisioning in Kubernetes/image%205.png)
 
-![image.png](../Designing a Secure Licensing Server for User Authentication and Enclave Provisioning in Kubernetes/image%206.png)
+![image.png](Designing a Secure Licensing Server for User Authentication and Enclave Provisioning in Kubernetes/image%206.png)
 
 
